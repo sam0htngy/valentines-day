@@ -1,9 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Chomsky";
+  src: url("./assets/chomsky-font/misc/Chomsky-399c.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-arial-narrow: 'Arial Narrow', 'Arial', sans-serif;
   --font-georgia: 'Georgia', serif;
   --font-brush-script: 'Brush Script MT', 'Pacifico', cursive;
+  --font-chomsky: "Chomsky", serif;
 
   --color-rose-700: #c41e3a;
 

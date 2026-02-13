@@ -2,25 +2,22 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="min-h-screen bg-amber-100 flex justify-center py-8 px-4">
-      <div className="w-full max-w-3xl bg-white px-8 sm:px-12 py-8 sm:py-10">
-
-        {/* Masthead */}
-        <header className="text-center pb-6">
-          <div className="flex justify-between items-center font-['Arial_Narrow'] text-xs tracking-widest text-gray-700 mb-4">
-            <span className="font-bold">Vol. 125 • No. 42</span>
-            <span>5¢ Daily</span>
+    <div className="min-h-screen bg-[#f3efe6] px-4 py-8">
+      <div className="mx-auto w-full max-w-[860px] bg-[#fff9ee] text-black shadow-sm ring-1 ring-black/10">
+        {/* Masthead top line */}
+        <div className="flex items-center justify-between px-6 pt-4 text-[11px] uppercase tracking-widest">
+          <span>Special Edition</span>
+          <div className="flex-1 px-4">
+            <div className="h-[2px] bg-black" />
+            <div className="mt-1 h-[1px] bg-black/70" />
           </div>
+          <span>Los Angeles</span>
+        </div>
 
-          <div className="flex justify-between items-center font-['Arial_Narrow'] text-xs tracking-widest text-gray-600 mb-3">
-            <span>SAN FRANCISCO</span>
-            <span className="font-bold">5¢</span>
-          </div>
-
+          {/* Main Title */}
           <div className="border-y-2 border-black py-2 my-3">
             <h1 className="leading-none">
-              <span className="block font-black text-6xl sm:text-8xl tracking-[0.2em] text-[#c41e3a]">CUPID</span>
-              <span className="block font-black text-5xl sm:text-7xl tracking-[0.3em] text-gray-900 mt-1">TIMES</span>
+              <span className="block font-chomsky text-5xl sm:text-7xl tracking-[0.3em] text-gray-900 mt-1"> CUPID TIMES</span>
             </h1>
           </div>
 
@@ -31,7 +28,7 @@ function App() {
             <span className="text-[#c41e3a] font-bold">•</span>
             <span>Page 1</span>
           </div>
-        </header>
+
 
         {/* Horizontal Rule */}
         <hr className="border-0 border-t-2 border-black my-4" />
